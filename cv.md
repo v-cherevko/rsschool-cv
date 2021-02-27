@@ -6,3 +6,20 @@
 - [LinkedIn](https://www.linkedin.com/in/valery-cherevko/)
 - +375 29 222 47 19
 - [vchareuka@gmail.com](https://gmail.com)
+
+## Brief information
+
+_My goal is to develop as a qualified specialist in the field of web development. I approach each task responsibly. I quickly absorb information. Inclined to self-study. Worked according to the methodology
+SCRUM. I have a great desire
+develop in this direction. Completed an internship at WebDad. I managed to work on three projects. Most of all I like working with the front end, but I can also work with the server side._
+
+## Skills
+
+- **HTML5, CSS3, JS;**
+- **TypeScript;**
+- **Golang;**
+- **Git, GitHub;**
+- **JIRA;**
+- **Nuxt.js, Vue.js, vuex, axios;**
+- **Angular 2;**
+- **SASS, LESS;**
