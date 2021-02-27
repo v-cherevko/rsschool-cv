@@ -40,3 +40,16 @@ develop in this direction. Completed an internship at WebDad. I managed to work 
           }, 1000)
         }
      }
+
+## Experience
+
+_Completed an internship at WebDad.
+Worked on three projects. I cannot divulge information regarding the code.
+But I can show educational projects:_
+
+- [To do list written in Vue.js framework](https://github.com/v-cherevko/TodoListVue)
+- [List of people written in the Angular 2 framework](https://github.com/v-cherevko/PersonListAngular2)
+
+## Languages
+
+- _English - basic ( A2 );_
