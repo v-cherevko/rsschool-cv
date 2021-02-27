@@ -23,3 +23,20 @@ develop in this direction. Completed an internship at WebDad. I managed to work 
 - **Nuxt.js, Vue.js, vuex, axios;**
 - **Angular 2;**
 - **SASS, LESS;**
+
+## Code examples
+
+    ngOnInit() {
+      if (!localStorage.person) {
+          this.http.get('http://jsonplaceholder.typicode.com/users').subscribe(data => this.persons = data);
+          setTimeout(() => {
+          this.personsFilter = this.persons;
+        }, 1000)
+      } else {
+          this.http.get('http://jsonplaceholder.typicode.com/users').subscribe(data => this.persons = data);
+          this.showDetailedCard = true;
+          setTimeout(() => {
+            this.personsFilter = this.persons;
+          }, 1000)
+        }
+     }
