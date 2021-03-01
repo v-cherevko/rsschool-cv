@@ -1,0 +1,64 @@
+html {
+  font-family: "Roboto", sans-serif;
+  cursor: default;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  max-width: 50rem;
+  margin: 5rem auto;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  box-shadow: 0.1rem 0.75rem 1rem 0.1rem #3a3838;
+}
+.container .left-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+  background: #4d646f;
+  color: #fff;
+}
+.container .left-column .avatar {
+  width: 10rem;
+  height: 10rem;
+  margin: 3rem 0;
+}
+.container .left-column .avatar .img-avatar {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.container .left-column .name {
+  text-align: center;
+}
+.container .left-column .contacts {
+  width: 100%;
+  padding: 1rem 1.5rem 3rem;
+}
+.container .left-column .contacts a {
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+.container .left-column .contacts a:hover {
+  color: #d3b4b4;
+}
+.container .left-column .skills {
+  width: 100%;
+  padding: 3rem 1.5rem;
+  background: #607d8b;
+}
+.container .left-column .skills .skills-title {
+  margin: 0 0 2rem 1.5rem;
+}
+
+/*# sourceMappingURL=styles.css.map */
