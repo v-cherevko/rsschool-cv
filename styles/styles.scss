@@ -68,4 +68,38 @@ html {
       }
     }
   }
+
+  .right-column {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding: 0 1rem;
+
+    .title {
+      margin: 1rem 0;
+    }
+
+    .img-examples {
+      width: 100%;
+    }
+
+    .projects-list {
+      padding: 1rem;
+
+      a {
+        color: black;
+        text-decoration: none;
+        transition: all 0.2s ease-in-out;
+
+        &:hover {
+          color: rgb(211, 180, 180);
+        }
+      }
+    }
+
+    .languages-list {
+      padding: 1rem;
+      font-style: italic;
+    }
+  }
 }

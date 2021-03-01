@@ -60,5 +60,32 @@ html {
 .container .left-column .skills .skills-title {
   margin: 0 0 2rem 1.5rem;
 }
+.container .right-column {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  padding: 0 1rem;
+}
+.container .right-column .title {
+  margin: 1rem 0;
+}
+.container .right-column .img-examples {
+  width: 100%;
+}
+.container .right-column .projects-list {
+  padding: 1rem;
+}
+.container .right-column .projects-list a {
+  color: black;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+.container .right-column .projects-list a:hover {
+  color: #d3b4b4;
+}
+.container .right-column .languages-list {
+  padding: 1rem;
+  font-style: italic;
+}
 
 /*# sourceMappingURL=styles.css.map */
