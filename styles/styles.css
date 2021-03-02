@@ -54,6 +54,7 @@ html {
 }
 .container .left-column .skills {
   width: 100%;
+  height: 100%;
   padding: 3rem 1.5rem;
   background: #607d8b;
 }
@@ -83,9 +84,7 @@ html {
 .container .right-column .projects-list a:hover {
   color: #d3b4b4;
 }
-.container .right-column .languages-list {
+.container .right-column .list {
   padding: 1rem;
   font-style: italic;
 }
-
-/*# sourceMappingURL=styles.css.map */
